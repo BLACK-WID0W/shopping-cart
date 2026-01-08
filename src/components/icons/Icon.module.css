@@ -1,0 +1,25 @@
+.trash {
+  color: var(--red);
+  transition: fill 0.2s ease;
+}
+
+.trash:hover {
+  fill: var(--red);
+}
+
+.nav {
+  color: var(--dark-green);
+  transition:
+    color 0.2s ease,
+    fill 0.2s ease;
+}
+
+.nav:hover {
+  fill: var(--dark-green);
+  color: var(--light-green);
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+}

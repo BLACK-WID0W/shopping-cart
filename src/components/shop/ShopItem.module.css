@@ -1,0 +1,40 @@
+.item {
+  width: 100%;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 12px;
+}
+
+.img {
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.labelContainer {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  font-size: clamp(0.3rem, 0.8rem, 1rem);
+}
+
+.price {
+  font-size: clamp(0.8rem, 1rem, 1.2rem);
+  text-align: start;
+}
+
+.title {
+  text-align: start;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+}

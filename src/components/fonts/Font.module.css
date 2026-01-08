@@ -1,0 +1,17 @@
+.receiptFont {
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.thickFont {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.thinFont {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}

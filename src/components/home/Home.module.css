@@ -19,7 +19,7 @@
   justify-content: center;
   text-align: start;
   color: var(--white);
-  padding: 3rem;
+  padding: 3rem 5rem;
   padding-top: 100px;
   letter-spacing: 0.1ch;
 }
@@ -59,12 +59,14 @@
         rgba(85, 85, 85, 0.5) 80%,
         rgba(255, 255, 255, 0.25) 100%
       ),
-      url("../../assets/grocery-y.jpg");
+      url("../../assets/grocery-x.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     align-items: center;
+    padding: 2rem 3rem;
+    padding-top: 100px;
   }
 
   .banner {
@@ -78,6 +80,25 @@
 }
 
 @media (max-width: 500px) {
+  .body {
+    background:
+      linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.8) 0%,
+        rgba(0, 0, 0, 0.75) 45%,
+        rgba(85, 85, 85, 0.5) 80%,
+        rgba(255, 255, 255, 0.25) 100%
+      ),
+      url("../../assets/grocery-y.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+    padding: 2rem 3rem;
+    padding-top: 100px;
+  }
+
   .banner {
     font-size: 3rem;
   }

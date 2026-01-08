@@ -2,6 +2,8 @@ import Navigation from "./components/navigation/Navigation";
 import { Outlet } from "react-router";
 import { useState, useEffect } from "react";
 import { ToastContainer } from "react-toastify";
+import LoadingPage from "./components/loading/LoadingPage";
+import ErrorPage from "./components/error/ErrorPage";
 
 function App() {
   const [cartItems, setCartItems] = useState({});
@@ -37,8 +39,8 @@ function App() {
     fetchData();
   }, []);
 
-  if (loading) return <h1>Loading Data...</h1>;
-  if (error) return <h1>An Error Has Occured!</h1>;
+  if (loading) return <LoadingPage />;
+  if (error) return <ErrorPage />;
 
   return (
     <>
